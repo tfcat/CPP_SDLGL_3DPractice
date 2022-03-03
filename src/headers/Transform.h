@@ -1,7 +1,8 @@
 #pragma once
 
-#include <glm\glm.hpp>
-#include <glm\gtx\transform.hpp>
+#define GLM_ENABLE_EXPERIMENTAL
+#include <glm/glm.hpp>
+#include <glm/gtx/transform.hpp>
 
 class Transform {
 public:

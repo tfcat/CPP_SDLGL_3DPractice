@@ -1,8 +1,8 @@
 #pragma once
 #include <iostream>
 #include <string>
-#include <GL\glew.h>
-#include "fileHandler.h"
+#include <GL/glew.h>
+#include "FileHandler.h"
 #include "Transform.h"
 
 class Shader {

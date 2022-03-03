@@ -1,5 +1,5 @@
-#include <glm\glm.hpp>
-#include <GL\glew.h>
+#include <glm/glm.hpp>
+#include <GL/glew.h>
 #include <stdio.h>
 
 #include "Display.h"
@@ -8,7 +8,7 @@
 #include "Texture.h"
 #include "Transform.h"
 
-int WinMain() {
+int main() {
 	Display display(400, 300, "GL/SDL Practice ft. Kanye West");
 
 	Vertex vertices[] = {

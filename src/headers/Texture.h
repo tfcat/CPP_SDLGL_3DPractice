@@ -2,7 +2,7 @@
 
 #include <string>
 #include <iostream>
-#include <GL\glew.h>
+#include <GL/glew.h>
 #include <cassert>
 
 class Texture {

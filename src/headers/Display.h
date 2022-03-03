@@ -1,7 +1,7 @@
 #pragma once
 #include <string>
 #include <stdio.h>
-#include <SDL2\SDL.h>
+#include <SDL2/SDL.h>
 
 #define FPS_CAP 60
 

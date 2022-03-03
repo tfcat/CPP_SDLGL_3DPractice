@@ -1,7 +1,7 @@
 CC = g++
-CFLAGS = -IM:/DEV/dev/include -I./src/headers -I./src -LM:/DEV/dev/lib -fpermissive
+CFLAGS = -I/usr/include -I./src/headers -I./src -fpermissive
 LDFLAGS =
-LIBS = -lSDL2 -lglew32 -lOpenGL32
+LIBS = -lSDL2 -lGL -lGLEW
 SRC = $(wildcard src/*.cpp)
 OBJ = $(patsubst src/%.cpp, obj/%.o, $(SRC))
 

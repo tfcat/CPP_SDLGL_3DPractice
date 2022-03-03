@@ -1,5 +1,5 @@
 #include "Display.h"
-#include <GL\glew.h>
+#include <GL/glew.h>
 
 Display::Display(int width, int height, const std::string& title)
 {
